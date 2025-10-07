@@ -30,7 +30,7 @@ spec:
         app: reviews
     spec:
       containers:
-        - image: ghcr.io/PragaPrakasam/reviews:latest
+        - image: ghcr.io/pragaprakasam/reviews:latest
           name: reviews
           ports:
             - containerPort: 4000
